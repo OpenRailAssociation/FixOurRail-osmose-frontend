@@ -32,7 +32,7 @@ services:
       - postgres
     environment:
       - DB_HOST=postgres
-      - URL_FRONTEND=https://api.3lh.nandus.net
+      - URL_FRONTEND=http://api.3lh.nandus.net:20009
     ports:
       - 20009:20009
     networks:
