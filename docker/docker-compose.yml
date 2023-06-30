@@ -33,6 +33,8 @@ services:
     environment:
       - DB_HOST=postgres
       - URL_FRONTEND=http://api.3lh.nandus.net:20009
+      # WARNING: open API access
+      - OSMOSE_UNLOCKED_UPDATE=on
     ports:
       - 20009:20009
     networks:
