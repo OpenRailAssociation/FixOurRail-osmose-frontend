@@ -119,7 +119,10 @@ module.exports = (env, argv) => {
             historyApiFallback: true,
             open: "en/map/",
             compress: true,
-            host: "0.0.0.0"
+            host: "0.0.0.0",
+            allowedHosts: [
+                '.nandus.net'
+            ]
         },
     }
 };

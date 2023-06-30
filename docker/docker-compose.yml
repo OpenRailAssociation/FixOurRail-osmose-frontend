@@ -32,6 +32,7 @@ services:
       - postgres
     environment:
       - DB_HOST=postgres
+      - URL_FRONTEND=http://srv1.3lh.nandus.net:20009
     ports:
       - 20009:20009
     networks:
