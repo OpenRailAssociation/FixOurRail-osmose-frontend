@@ -121,7 +121,7 @@ module.exports = (env, argv) => {
             compress: true,
             host: "0.0.0.0",
             allowedHosts: [
-                '.nandus.net'
+                '3lh.nandus.net'
             ]
         },
     }
